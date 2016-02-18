@@ -1,8 +1,9 @@
-tags: 
+tags:
   - apis
   - web
   - request
-language: 
+  - faraday
+languages:
   - ruby
-resources: 
+resources:
   - 0
