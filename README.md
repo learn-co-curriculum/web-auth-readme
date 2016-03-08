@@ -150,7 +150,7 @@ private
   end
 ```
 
-Once you've implemented `#authenticate_user`, set the authentication as a `before_action` in your `ApplicationController`. In your `SessionsController`, skip the `before_action` with `skip_before_action :authenticate_user, only: :create`. Now, whenever users do not have an access token stored in their session, they will be redirected to the GitHub authorization URL.
+Once you've implemented `#authenticate_user`, set the authentication as a `before_action` in your `ApplicationController`. In your `SessionsController`, skip the `before_action` with `skip_before_action :authenticate_user, only: :create`. Now, whenever users do not have an access token stored in their session, they will be redirected to the Foursquare authorization URL.
 
 Let's try it out. Start your Rails server and try to hit the `/search`
 page. You should get redirected to Foursquare! Hit the "Allow" button
@@ -241,3 +241,5 @@ Now load `/friends` and, just like that, they'll be there for you!
 ![friends couch](http://i.giphy.com/woCi8k482YTEQ.gif)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/web-auth-readme' title='Working with APIs'>Working with APIs</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/web-auth-readme'>Using OAuth With APIs</a> on Learn.co and start learning to code for free.</p>
