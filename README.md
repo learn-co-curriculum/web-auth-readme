@@ -90,7 +90,7 @@ Because we're going to be using our client ID/secret a lot, instead of always ty
 
 Okay, that should handle everything we need to make this first request, so now we need to set up the redirect.
 
-Write another private method `#authenticate_user` that will redirect the user to `https://github.com/login/oauth/authorize` _if_ the user is not already logged in. Then we'll set up a `before_action` to check authentication.
+Write another private method `#authenticate_user` that will redirect the user to `https://foursquare.com/login/oauth/authorize` _if_ the user is not already logged in. Then we'll set up a `before_action` to check authentication.
 
 ```ruby
 # application_controller.rb
