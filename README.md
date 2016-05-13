@@ -130,7 +130,7 @@ you don't share your secrets with everyone else!
 Okay, that should handle everything we need to make this first request,
 so now we need to set up the redirect.
 
-Write another private method `#authenticate_user` that will redirect the user to `https://github.com/login/oauth/authorize` _if_ the user is not already logged in. Then we'll set up a `before_action` to check authentication.
+Write another private method `#authenticate_user` that will redirect the user to `https://foursquare.com/oauth2/authenticate` _if_ the user is not already logged in. Then we'll set up a `before_action` to check authentication.
 
 ```ruby
 # application_controller.rb
@@ -243,3 +243,5 @@ Now load `/friends` and, just like that, they'll be there for you!
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/web-auth-readme' title='Working with APIs'>Working with APIs</a> on Learn.co and start learning to code for free.</p>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/web-auth-readme'>Using OAuth With APIs</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/web-auth-readme'>Using OAuth With APIs</a> on Learn.co and start learning to code for free.</p>
