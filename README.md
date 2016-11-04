@@ -45,7 +45,7 @@ An OAuth token also provides a standard way for our application to tell Foursqua
 
 ### OAuth Authentication Flow
 
-OAuth authentication workflow involved three steps at a high level.
+OAuth authentication workflow involves three steps at a high level.
 
 1. Request access from the provider site (often via redirect to a
    special form)
