@@ -52,7 +52,7 @@ OAuth authentication workflow involved three steps at a high level.
 2. Redirect back to our site with a code
 3. Request a token from the provider using the code
 
-Take a look at the [Access token section of the Foursquare API Documentation](https://developer.foursquare.com/overview/auth), specifically the second subsection, under **Code (preferred)**. It describes how to do those three steps with Foursquare.
+Take a look at the [Access token section of the Foursquare API Documentation](https://developer.foursquare.com/overview/auth), specifically the subsection **Web Applications Code Flow**. It describes how to do those three steps with Foursquare.
 
 #### Checking Authentication
 
