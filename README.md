@@ -1,4 +1,4 @@
-# Using OAuth With APIs
+# Using OAuth with APIs
 
 ## Objectives
 
@@ -45,10 +45,9 @@ An OAuth token also provides a standard way for our application to tell Foursqua
 
 ### OAuth Authentication Flow
 
-OAuth authentication workflow involved three steps at a high level.
+OAuth authentication workflow involves three steps at a high level.
 
-1. Request access from the provider site (often via redirect to a
-   special form)
+1. Request access from the provider site (often via redirect to a special form)
 2. Redirect back to our site with a code
 3. Request a token from the provider using the code
 
@@ -193,8 +192,4 @@ Now load `/friends` and, just like that, they'll be there for you!
 
 ![friends couch](http://i.giphy.com/woCi8k482YTEQ.gif)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/web-auth-readme' title='Working with APIs'>Working with APIs</a> on Learn.co and start learning to code for free.</p>
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/web-auth-readme'>Using OAuth With APIs</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/web-auth-readme'>Using OAuth With APIs</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/web-auth-readme' title='Using OAuth with APIs'>Using OAuth with APIs</a> on Learn.co and start learning to code for free.</p>
