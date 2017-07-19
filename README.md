@@ -181,11 +181,15 @@ Finally, let's set up our view:
 
 ```erb
 # views/searches/friends.html.erb
-<ul>
-  <% @friends.each do |friend| %>
-    <li><%= "#{friend['firstName']} #{friend['lastName']}" %></li>
-  <% end %>
-</ul>
+<% if @friends.size > 0 %>
+  <ul>
+    <% @friends.each do |friend| %>
+      <li><%= "#{friend['firstName']} #{friend['lastName']}" %></li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>Looks like you don't have any foursquare friends yet.</p>
+<% end %>
 ```
 
 Now load `/friends` and, just like that, they'll be there for you!
