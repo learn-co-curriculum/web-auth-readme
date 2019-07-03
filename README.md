@@ -7,7 +7,7 @@
 
 ## Lesson
 
-<iframe style="width: 100%; min-height: 315px;" src="https://www.youtube.com/embed/wHxuNMGi3JY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="width: 100%; height: 470px;" src="https://www.youtube.com/embed/wHxuNMGi3JY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 We're going to expand on our Coffee Shop example to use OAuth with the Foursquare API to perform actions on behalf of an individual user.
 
