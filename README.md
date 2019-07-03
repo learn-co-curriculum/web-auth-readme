@@ -152,7 +152,7 @@ end
 
 Now that users have their API tokens, they can make calls to all of the API endpoints as long as those tokens are included in the request. Back in our [Foursquare auth docs](https://developer.foursquare.com/overview/auth), under the **Requests** section, we see that all we have to do now is add a `oauth_token` parameter to any request with the user's token.
 
-Let's look again at the [friends](https://developer.foursquare.com/docs/users/friends) documentation and add a friends list to our application. First, let's add a route to `/friends`:
+Let's look again at the [friends](https://developer.foursquare.com/docs/api/users/friends) documentation and add a friends list to our application. First, let's add a route to `/friends`:
 
 ```ruby
 # routes.rb
@@ -172,6 +172,7 @@ def friends
     req.params['v'] = '20160201'
   end
   @friends = JSON.parse(resp.body)["response"]["friends"]["items"]
+  render 'friends'
 end
 ```
 
